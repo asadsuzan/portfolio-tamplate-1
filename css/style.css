@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -19,6 +20,21 @@ a {
 
 ul {
     list-style: none;
+}
+.button{
+    color: #fff;
+    background: var(--primary-color);
+    font-size: 16px;
+    padding: 15px 50px;
+    font-weight: 600;
+    border-radius: 10px 0 10px 0;
+    transition: all .4s ease;
+    border:2px solid white;
+}
+.button:hover{
+    background: #fff;
+    color: var(--primary-color);
+    border:2px solid var(--seconday-color);
 }
 
 :root {
@@ -29,10 +45,13 @@ ul {
 /*=====================
  nav-bar
 =================== */
+header{
+    width: 100%;
+    height: 100vh;
+}
 .top_nav {
-    background: snow;
     height: 80px;
-    padding: 0 3em;
+    padding: 4em 4em;
     position: relative;
 }
 
@@ -90,3 +109,33 @@ ul {
     opacity: 1;
     transform: scaleY(1);
 }
+/*=================
+ banner 
+================= */
+.banner{
+    width: 100%;
+    height: calc(100vh - 300px);
+   
+}
+.banner_content{
+    animation: slideLeft 2s ease-in-out 1; 
+}
+.banner_thumbnail{
+    animation: slideright 2s ease-in-out 1; 
+   
+}
+
+.banner_title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.banner_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 20px 0;
+   
+}
+

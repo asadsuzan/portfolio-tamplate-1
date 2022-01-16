@@ -1,11 +1,13 @@
-@media (max-width: 992px) { 
+@media (max-width: 767px) {
+
     /* ==================
     nav bar 
     ================== */
-    .toogler{
+    .toogler {
         display: block !important;
     }
-    .navigation{
+
+    .navigation {
         position: absolute;
         left: 0;
         top: 100%;
@@ -16,20 +18,73 @@
         transition: .4s ease-in-out;
         transform: translateX(-100%);
     }
-    .nav_toggle{
+
+    .nav_toggle {
         transform: translateX(0);
     }
+
     .navigation_item {
-        display:block;
+        display: block;
         margin: 2rem 0;
         border-bottom: 1px solid #ddd;
     }
-    .navigation_link{
+
+    .navigation_link {
         padding: 30px 20px;
     }
-    .dropdown{
+
+    .dropdown {
         left: 0;
         top: 100%;
     }
-     
- }
+
+
+
+
+}
+
+@media screen and (max-width:990px) {
+
+    /*=============
+     nav
+    ========== */
+    .navigation_item {
+        margin: 0 .4rem;
+
+    }
+
+    /*============== 
+    banner
+    ============ */
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner_content {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* ==========
+    utilite
+    =========== */
+    .button {
+
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+
+    /*============
+      banner
+     ============= */
+    .banner_title {
+        font-size: 2.1rem;
+    }
+
+    .banner_text {
+        font-size: 13px;
+
+    }
+}
