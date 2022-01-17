@@ -353,3 +353,59 @@ portfolio area
 .fa-link {
     color: white;
 }
+
+/*============
+ about
+============= */
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.about_thumbnail {
+    width: 100%;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+figure {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.about_title {
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.about_txt {
+    color: var(--primary-color);
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: 35px 0;
+}
+
+.social_icon {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-right: 20px;
+    font-weight: 900;
+}
+
+/* ===========
+clients
+============ */
+.clients_area {
+    background: linear-gradient(to right, rgba(203, 250, 20, 1) 0, rgba(9, 215, 203, 1) 100%)
+}
+
+.clients {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 50px 0;
+}

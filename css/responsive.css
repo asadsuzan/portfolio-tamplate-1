@@ -51,6 +51,14 @@
         grid-column-gap: 30px;
     }
 
+    /* ===============
+    clients
+    ============ */
+    .clients {
+        grid-column-gap: 20px;
+
+    }
+
 }
 
 @media screen and (max-width:990px) {
@@ -87,7 +95,26 @@
     ============== */
     .services {
         flex-direction: column;
+
     }
+
+    /* =============
+    about
+    ================ */
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: center;
+
+    }
+
+    figure {
+        text-align: center;
+    }
+
+
 }
 
 @media screen and (max-width:576px) {
@@ -121,6 +148,7 @@
         font-size: 13px;
         font-weight: 900;
     }
+
     /*==============
      portfolio area
     =============== */
@@ -130,11 +158,20 @@
         grid-row-gap: 10px;
         grid-column-gap: 5px;
         padding: 0 10px;
-    
+
     }
-    .list{
+
+    .list {
         font-size: 15px;
         margin: 0 6px;
+    }
+
+    /*=========== 
+    about
+    ============ */
+    .about_txt {
+        font-size: 13px;
+
     }
 }
 
