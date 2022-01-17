@@ -59,6 +59,16 @@
 
     }
 
+    /* ============
+    testimonial
+    ============= */
+    .testimonial_area {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 10px;
+
+    }
+
 }
 
 @media screen and (max-width:990px) {
@@ -171,6 +181,16 @@
     ============ */
     .about_txt {
         font-size: 13px;
+
+    }
+
+    /* ============
+    testimonial
+    ============= */
+    .testimonial_area {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        padding: 30px 20px;
 
     }
 }

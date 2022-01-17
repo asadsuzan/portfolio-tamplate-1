@@ -409,3 +409,51 @@ clients
     justify-items: center;
     padding: 50px 0;
 }
+
+/* ===============
+testimonial_area
+================== */
+.testimonial_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    padding: 50px 0;
+    background: snow;
+}
+
+.testimonial {
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px 0 10px 0;
+    transition: .6s;
+}
+
+.testimonial:hover {
+    background: linear-gradient(to right, rgba(203, 250, 20, 1) 0, rgba(9, 215, 203, 1) 100%);
+
+}
+
+.testimonial_thumbnail {
+    margin-right: 20px;
+}
+
+.autor_name {
+    padding: 0;
+    margin: 0;
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.author_profile {
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.tesimonial_txt {
+    color: var(--primary-color);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 40px 0;
+}
