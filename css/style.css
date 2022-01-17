@@ -458,45 +458,130 @@ testimonial_area
     font-size: 15px;
     margin: 40px 0;
 }
+
 /* ============
 blog_area
 ============== */
-.blog_area{
+.blog_area {
     background: white;
     padding: 70px 0;
 }
-.blogs_container{
+
+.blogs_container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
 }
-.blog{
+
+.blog {
     background: snow;
 }
-.blog_thumbnail{
+
+.blog_thumbnail {
     width: 30%;
 }
-.blog_description{
-  width: 70%;
-  padding:  10px 30px;
- 
+
+.blog_description {
+    width: 70%;
+    padding: 10px 30px;
+
 }
-.bloge_date{
+
+.bloge_date {
     color: var(--primary-color);
     font-weight: 900;
     font-size: 13px;
     display: block;
     margin: 20px 0;
 }
-.blog_title{
+
+.blog_title {
     color: var(--primary-color);
     font-weight: 700;
     font-size: 20px;
 }
-.blog_txt{
+
+.blog_txt {
     font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
     font-size: 14px;
-    
+
     line-height: 30px;
+}
+
+/* ===========
+pricing
+============= */
+.pricing_area {
+    background: snow;
+    padding: 70px 0;
+
+}
+
+.pricing_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+
+}
+
+.pricing {
+    background: white;
+    padding: 30px 0 0 0;
+    border-radius: 10px 10px 15px 15px;
+
+}
+
+.pricing_title {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--primary-color);
+}
+
+.pricing_icon {
+    width: 60px;
+    margin: 40px auto;
+}
+
+.pricing_offers {
+    margin: 20px 0;
+}
+
+.items_list {
+    margin: 0;
+    padding: 0;
+}
+
+.pricing_items {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 15px;
+    margin: 7px 0;
+}
+
+.pricing_price {
+    color: var(--primary-color);
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.pricing_price span {
+    font-size: 15px;
+}
+
+.pricing_btn {
+    background: var(--primary-color);
+    padding: 20px 0;
+    border-radius: 0 0 15px 15px;
+    transition: .3s;
+}
+
+.buy_now {
+    display: block;
+    color: white;
+    font-weight: 900;
+}
+
+.pricing:hover .pricing_btn {
+    background: linear-gradient(to right, rgba(203, 250, 20, 1) 0, rgba(9, 215, 203, 1) 100%);
 }
