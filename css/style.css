@@ -396,6 +396,10 @@ figure {
     font-weight: 900;
 }
 
+.social_icon:hover {
+    color: var(--seconday-color);
+}
+
 /* ===========
 clients
 ============ */
@@ -584,4 +588,55 @@ pricing
 
 .pricing:hover .pricing_btn {
     background: linear-gradient(to right, rgba(203, 250, 20, 1) 0, rgba(9, 215, 203, 1) 100%);
+}
+
+/* ============
+contact area
+============== */
+.contact_area {
+    padding: 100px 0;
+
+}
+
+.contact_box {
+    padding: 20px 50px;
+    /* border-radius: 50px 0 50px 0; */
+}
+
+input:focus {
+    border-bottom: 2px solid var(--seconday-color) !important;
+}
+
+label {
+    font-size: 13px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid rgba(221, 221, 221, .5) !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+textarea {
+    height: 150px !important;
+}
+
+textarea:focus {
+    border-bottom: 2px solid var(--seconday-color) !important;
+}
+
+/* =================
+  footer
+  ============== */
+footer {
+    background: snow;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
