@@ -1,6 +1,6 @@
 ### Web designer Portfolio
 
-#### [Live-Preview](https://legend-studio-6bd86.firebaseapp.com/)
+#### [Live-Preview](https://asadsuzan.github.io/portfolio-tamplate-1/)
 
 ### `Brief`
 
